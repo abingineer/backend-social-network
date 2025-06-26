@@ -35,6 +35,7 @@ jobs:
           name: backend-social-network
           path: backend-social-network-${{ github.sha }}.jar
 
+
   fake-deploy:
     runs-on: self-hosted
     needs: run-unit-tests
