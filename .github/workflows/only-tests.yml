@@ -1,9 +1,8 @@
 name: only-tests
 on: 
   push:
-    branches-ignore:
-      - main
-      - master
+      #branches-ignore:
+      branches: [main, master]
 
 
 jobs:
